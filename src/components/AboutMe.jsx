@@ -24,7 +24,7 @@ const AboutMe = () => {
 
                     <p className='mt-2 font-mono'>My ultimate goal is to use my skills and passion to contribute to creating a better world. With the advances in technology, I believe now is the time to build innovative solutions that can make a real difference in society. I am dedicated to using my abilities to help create a more positive and prosperous future for all.</p>
 
-                    <a href="/assets/Ankit_CV.pdf" className="relative inline-block px-4 py-2 font-medium group m-5 font-mono" target={'_blank'}>
+                    <a href="/assets/Ankit_Resume.pdf" className="relative inline-block px-4 py-2 font-medium group m-5 font-mono" target={'_blank'}>
                         <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0" ></span>
                         <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                         <span className="relative text-black group-hover:text-white flex justify-between font-bold items-center">

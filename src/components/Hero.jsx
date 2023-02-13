@@ -13,8 +13,9 @@ const Hero = () => {
                     <p className='mr-2'>I am Into</p>
                     <Typewriter
                         options={{
-                            strings: ['<span style = "color:#409EBE">Full Stack Developer<span>',
+                            strings: ['<span style = "color:#409EBE">Full Stack Developement<span>',
                                 '<span style = "color:#409EBE">Machine Learning<span>',
+                                '<span style = "color:#409EBE">Competitive Programming<span>',
                                 '<span style = "color:#409EBE">Competitive Programming<span>'
                             ],
                             autoStart: true,
