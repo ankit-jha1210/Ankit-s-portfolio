@@ -1,11 +1,12 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { BsGithub, BsLinkedin, BsFillEnvelopeFill } from 'react-icons/bs'
-
+import { motion } from 'framer-motion';
 const Hero = () => {
 
     return (
-        <div className=' flex justify-between px-10 py-12 items-center bg-gray-200' id='#'>
+        <div className=' flex justify-between px-10 py-12 items-center bg-gray-200' id='home'
+        >
             <div className="left">
                 <h1 className='text-6xl text-purple-400 font-semibold'>Hi There,</h1>
                 <h1 className='text-6xl mt-3 text-purple-400 font-semibold'>I'm <span className='text-[#409EBE]'>Ankit Jha</span></h1>

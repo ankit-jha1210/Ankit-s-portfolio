@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "framer-motion": "^9.0.2",
+    "framer-motion": "^9.0.3",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,8 +18,6 @@
     "react-parallax-tilt": "^1.7.101",
     "react-scroll": "^1.8.9",
     "react-skillbars": "^2.1.0",
-    "react-tsparticles": "^2.9.1",
-    "tsparticles": "^2.9.1",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

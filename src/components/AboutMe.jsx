@@ -1,10 +1,11 @@
 import React from 'react'
 import { BsFillPersonFill } from 'react-icons/bs'
 import { TbDownload } from 'react-icons/tb'
-
 const AboutMe = () => {
     return (
-        <div className='p-4' id="about">
+        <div className='p-4' id="about" initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}>
             <h1 className='text-center flex justify-center items-center text-4xl font-bold'>
                 <span className='mr-2'>
                     <BsFillPersonFill className='' />

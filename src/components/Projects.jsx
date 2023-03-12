@@ -12,7 +12,7 @@ const Projects = () => {
         Name: "Code Sync",
         desc: "A Realtime code editor made using react.js and socket.io",
         img: "/assets/code-sync.png",
-        liveLink: "https://code-sync-xi.vercel.app/",
+        liveLink: "https://code-sync-frontend.vercel.app/",
         srcLink: "https://github.com/J-Ankit2020/Code-Sync"
     },
     {

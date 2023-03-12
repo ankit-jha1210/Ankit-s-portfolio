@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import Tilt from 'react-parallax-tilt';
 import { AiFillEye } from 'react-icons/ai'
 import { BsCodeSlash } from 'react-icons/bs'
+
 const ProjectBox = ({ project }) => {
     const [isOpen, setIsOpen] = useState(false);
     const overlayOpener = () => {
         setIsOpen(!isOpen);
     }
     return (
-
         <Tilt className='shadow-xl  md:mt-1' onEnter={overlayOpener} onLeave={overlayOpener}>
             <div className=' w-full h-72'>
                 <img src={project.img} alt="" className='rounded-t-xl relative object-cover w-full h-full' />
@@ -30,7 +30,6 @@ const ProjectBox = ({ project }) => {
                 </div>}
             </div>
         </Tilt>
-
     )
 }
 
